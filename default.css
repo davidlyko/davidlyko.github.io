@@ -1,0 +1,83 @@
+:root{
+	--textColor: gray;
+	--backgroundColor: tan; 
+	--mainColor: silver;
+	--borderColor:black;
+}
+
+
+html, body{
+	padding: 0;
+	margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, strong{
+	color: var(--textColor);
+	font-family: 'Anton', sans-serif;
+}
+
+p, li, span, label, input, textarea{
+	color: var(--textColor);
+	font-family: 'Anton', sans-serif;
+}
+
+
+h1 { font-size: 56px;}
+h2 { font-size: 36px;}
+h3 { font-size: 28px;}
+h4 { font-size: 24px;}
+h5 { font-size: 20px;}
+h6 { font-size: 16px;}
+
+
+
+.s1{
+	background-color: var(--mainColor);
+	border-bottom:1px solid var(--borderColor);
+	border-style: none;
+	height: 1600px;
+	width: 100%;
+	margin: auto;
+}
+
+.s2{
+	background-color: var(--backGroundColor);
+	border-bottom:1px solid var(--borderColor);
+	border-style: none;
+	height: 400px;
+	width: 100%;
+
+}
+
+.s1-container{
+	height: 1600px;
+	width: 100%;
+	margin: auto;
+	background-image: url("sand.jpg");
+
+}
+
+.main-container{
+	
+	width: 100%;
+	margin: auto;
+	
+
+}
+
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+@media screen and (max-width: 1200ppx){
+	.main-container{
+		width: 95%;
+	}
+	.s1-container{
+		width: 95%;
+	}
+}
