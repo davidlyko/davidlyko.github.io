@@ -35,9 +35,9 @@ h6 { font-size: 16px;}
 	background-color: var(--mainColor);
 	border-bottom:1px solid var(--borderColor);
 	border-style: none;
-	height: 1600px;
+	height: 100%;
 	width: 100%;
-	margin: auto;
+	margin: 100px;
 }
 
 .s2{
@@ -46,6 +46,7 @@ h6 { font-size: 16px;}
 	border-style: none;
 	height: 400px;
 	width: 100%;
+	margin: 100px;
 
 }
 
@@ -53,12 +54,20 @@ h6 { font-size: 16px;}
 	height: 1600px;
 	width: 100%;
 	margin: auto;
-	background-image: url("sand.jpg");
+
+}
+
+.header {
+  padding: 1px;
+  text-align: center;
+  background: silver;
+  color: black;
+  font-size: 30px;
+  margin: 100px;
 
 }
 
 .main-container{
-	
 	width: 100%;
 	margin: auto;
 	
