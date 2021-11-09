@@ -22,7 +22,7 @@ p, li, span, label, input, textarea{
 }
 
 
-h1 { font-size: 56px;}
+h1 { font-size: 100px;}
 h2 { font-size: 36px;}
 h3 { font-size: 28px;}
 h4 { font-size: 24px;}
@@ -32,32 +32,24 @@ h6 { font-size: 16px;}
 
 
 .s1{
-	background-color: var(--mainColor);
+	background-color: tan;
 	border-bottom:1px solid var(--borderColor);
 	border-style: none;
 	height: 100%;
-	width: 100%;
 	margin: 100px;
 }
 
 .s2{
-	background-color: var(--backGroundColor);
+	background-color: silver;
 	border-bottom:1px solid var(--borderColor);
 	border-style: none;
 	height: 400px;
-	width: 100%;
 	margin: 100px;
 
 }
 
-.s1-container{
-	height: 1600px;
-	width: 100%;
-	margin: auto;
-
-}
-
 .header {
+  margin-top: 0px;
   padding: 1px;
   text-align: center;
   background: silver;
@@ -68,10 +60,7 @@ h6 { font-size: 16px;}
 }
 
 .main-container{
-	width: 100%;
-	margin: auto;
-	
-
+	margin: 100px;
 }
 
 .center{
