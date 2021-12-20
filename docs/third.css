@@ -64,13 +64,14 @@ nav a{
 	font-family: poppins;
 	text-transform: uppercase;
 	color: #fff;
+  width: 100%;
 }
 
 .Content-Area{
 	width: 100%;
 	position: relative;
 	top: 450px;
-	background: #ddd;
+	background: #E0B381;
 	height: 4900px;
 }
 
